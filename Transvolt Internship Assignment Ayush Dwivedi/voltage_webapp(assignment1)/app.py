@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import os
 from scipy.signal import find_peaks
 app = Flask(__name__)
-@app.route("/")
+@app.route("/", methods=["GET"])
 def index():
     df = pd.read_csv("Sample_Data.csv")
     df['Timestamp'] = pd.to_datetime(df['Timestamp'], format="%d-%m-%Y %H:%M")
