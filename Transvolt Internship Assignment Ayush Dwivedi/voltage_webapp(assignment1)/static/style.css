@@ -1,0 +1,52 @@
+<head>
+    <title>Voltage Analyzer</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 20px;
+            background-color: #f4f7fa;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 30px;
+        }
+        img {
+            display: block;
+            margin: 0 auto 40px auto;
+            border: 1px solid #ccc;
+            box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #34495e;
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 5px;
+            margin-top: 40px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 40px;
+            background-color: white;
+        }
+
+        th {
+            background-color: #2c3e50;
+            color: white;
+            padding: 10px;
+            text-align: left;
+        }
+        td {
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
